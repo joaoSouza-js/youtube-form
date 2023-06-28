@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding:  0px; 
+    outline: none; 
+    border: none;
+    -webkit-font-smoothing: antialiased;
+}
+
+:root {
+    --gray900: #18181B;
+    --gray700: #27272A;
+    --gray300: #cccccc;
+    --gray400: #9F9F9F;
+    --gray100: #F4F4F5;
+    --green600:#16A34A;
+    --green400: #22C55E;
+    --white: #fff;
+    --fontDefault:  'Inter', sans-serif;
+}
+
+*:focus   {
+    border: none;
+    outline: none;
+    box-shadow: 0px 0px 0px 2px var(--gray400);
+}
+
+body {
+    background-color: var(--gray900);
+}
+
+body, input, button {
+    font-size: 1rem;
+    font-family: var(--fontDefault);
+    color: var(--white);
+}
+
